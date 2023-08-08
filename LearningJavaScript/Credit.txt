@@ -1,0 +1,5 @@
+A Folder that shows my work when learning JavaScript.
+
+Credit to Wes Bos that offers JavaScript30 a 30 day JavaScript Challenge
+
+https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH
