@@ -7,6 +7,24 @@
     <link rel="icon" href="https://fav.farm/🔥" />
   </head>
   <body>
-    <script></script>
+    <script>
+      const pressed = [];
+      const code = 'mario';
+
+      window.addEventListener('keyup', (e)=>{
+        pressed.push(e.key);
+        pressed.splice(-code.length - 1, pressed.length-code.length);
+
+        if (pressed.join('').includes(code)) {
+          console.log("CODE!");
+          cornify_add();
+        }
+
+        console.log(pressed);
+      });
+
+      
+
+    </script>
   </body>
 </html>
