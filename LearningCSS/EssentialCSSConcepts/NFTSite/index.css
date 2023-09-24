@@ -13,6 +13,7 @@ h1, h3 {
 h1 {
     font-size: 36px;
     color: whitesmoke;
+    margin-left: 10px;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
 h3 {
     font-size: 20px;
     color: #d0aaff;
+    margin-left: 10px;
 }
 
 p {
@@ -38,6 +40,37 @@ a {
 a:hover, a:active{
     color: #d4b44c;
 }
+
+.btn {
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dp-btn {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn:hover, .btn:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.lp-btn, .w-btn {
+    color: #5f29a3;
+}
+
+.lp-btn {
+    background-color: #f0e0ff;
+}
+
+.w-btn {
+    background-color: whitesmoke;
+}
+
 
 /* Layout */
 
